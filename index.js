@@ -2,5 +2,9 @@
 'use strict';
 
 module.exports = {
-  name: 'bepstore-ui-github'
+  name: 'bepstore-github',
+
+  isDevelopingAddon: function() {
+    return true;
+  }
 };
