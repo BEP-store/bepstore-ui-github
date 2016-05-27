@@ -1,0 +1,16 @@
+<div class="fbf-layout__flex-container">
+  {{#component 'bepstore-goals@goal/goal-index' model=model}}
+    <h2>GitHub whaddup:</h2>
+    {{#fbf-card}}
+      {{#fbf-item}}
+        {{model.description}}
+      {{/fbf-item}}
+    {{/fbf-card}}
+      <h3>Status: {{component 'bepstore-goals@badge/status-badge' status=model.status size="big"}}</h3>
+    {{#fbf-card}}
+      {{#fbf-item}}
+        {{model.updateText}}
+      {{/fbf-item}}
+    {{/fbf-card}}
+  {{/component}}
+</div>
