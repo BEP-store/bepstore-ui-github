@@ -12,5 +12,15 @@
         {{model.updateText}}
       {{/fbf-item}}
     {{/fbf-card}}
+
+    <h3>Challenges</h3>
+    {{#fbf-card}}
+      {{#fbf-item class="challenges_item" }}
+        {{#each model.milestones as |milestone|}}
+          Hello {{milestone.title}}!!!
+          {{!-- {{component 'bepstore-github@milestones/list-item' model=milestone}} --}}
+        {{/each}}
+      {{/fbf-item}}
+    {{/fbf-card}}
   {{/component}}
 </div>
