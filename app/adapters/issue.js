@@ -1,4 +1,4 @@
-import Adapter from 'bepstore-github/adapters/milestone';
+import Adapter from 'bepstore-github/adapters/issue';
 import config from '../config/environment';
 
 export default Adapter.extend({

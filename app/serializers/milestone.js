@@ -1,1 +1,1 @@
-export { default } from './github';
+export { default } from 'bepstore-github/serializers/milestone';

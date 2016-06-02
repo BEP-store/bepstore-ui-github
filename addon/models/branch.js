@@ -1,4 +1,4 @@
-import Model from 'ember-data-github/models/github-issue';
+import Model from 'ember-data-github/models/github-branch';
 import attr from 'ember-data/attr';
 import Ember from 'ember';
 
